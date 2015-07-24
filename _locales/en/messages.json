@@ -1,0 +1,14 @@
+{
+	"name": {
+		"message": "Denotifier",
+		"description": "Extension name in manifest."
+	},
+	"description": {
+		"message": "Don't delete your YouTube videos just because you can't stand the notifications.",
+		"description": "Extension description in manifest."
+	},
+	"default_title": {
+		"message": "Denotifier",
+		"description": "Extension browser action tooltip text in manifest."
+	}
+}

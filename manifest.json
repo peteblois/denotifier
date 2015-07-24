@@ -1,0 +1,24 @@
+{
+	"name": "__MSG_name__",
+	"version": "0.0.2",
+	"description": "__MSG_description__",
+	"default_locale": "en",
+  "manifest_version": 2,
+
+	"icons": {
+		"48": "gminus48.png",
+		"128": "gminus128.png"
+	},
+
+	"permissions": [
+		"tabs",
+		"https://mail.google.com/*"
+	],
+
+	"content_scripts": [
+    {
+      "matches": ["https://mail.google.com/*"],
+      "js": ["denotifier.js"]
+    }
+  ]
+}
